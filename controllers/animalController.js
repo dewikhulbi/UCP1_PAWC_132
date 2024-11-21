@@ -42,7 +42,7 @@ exports.deleteAnimal = (req, res) => {
   });
 };
 
-// Show edit animal form
+// Show edit form
 exports.editAnimalForm = (req, res) => {
   const { id } = req.params;
   db.query('SELECT * FROM animals WHERE id = ?', [id], (err, results) => {
@@ -50,14 +50,9 @@ exports.editAnimalForm = (req, res) => {
       console.log(err);
       return res.status(500).send('Error retrieving animal for edit');
     }
-    if (results.length > 0) {
-      res.render('form', { animal: results[0] });  // Pastikan mengirimkan objek animal
-    } else {
-      res.status(404).send('Animal not found');
-    }
+    res.render('form', { animal: results[0] });
   });
 };
-
 
 // Update animal data
 exports.updateAnimal = (req, res) => {
