@@ -8,4 +8,7 @@ GET
 ![Screenshot (96)](https://github.com/user-attachments/assets/d1387750-151a-404f-a5ca-3d96c325d4ee)
 POST
 ![Screenshot (97)](https://github.com/user-attachments/assets/17599b5d-9c30-4b22-906e-bdd322dd0e89)
-
+PUT
+![Screenshot (99)](https://github.com/user-attachments/assets/5cf25f27-5871-458a-9d7e-b6d14212df4d)
+DELETE
+![Screenshot (100)](https://github.com/user-attachments/assets/b6eb4eb3-dea9-4b39-ae50-4a1911bd23a1)
